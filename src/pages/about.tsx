@@ -1,21 +1,21 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import HomePage from "@/components/HomePage";
+import AboutPage from "@/components/AboutPage";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
 
     <div className="container mt-24 mx-auto px-12 py-4">
       <Head>
-        <title>Saumya</title>
+        <title>Saumya - About</title>
       </Head>
       <Navbar />
-      <HomePage />
+      <AboutPage />
       <Footer />
     </div>
   )
 }
 
-export default Home;
+export default About;
