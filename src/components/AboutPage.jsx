@@ -15,6 +15,7 @@ const TAB_DATA = [
         <li>React</li>
         <li>PostgreSQL/MySQL</li>
         <li>MongoDBL</li>
+        <li>Git</li>
       </ul>
     ),
   },
@@ -23,7 +24,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>I am currently studying in 11th grade dreaming to pursue a career in Computer Science</li>
+        <li>I am currently studying in 11th grade</li>
+        <li>Dreaming to pursue a career in Computer Science!</li>
       </ul>
     ),
   },

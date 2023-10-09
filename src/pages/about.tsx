@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 
 const About: NextPage = () => {
   return (
-
     <div className="container mt-24 mx-auto px-12 py-4">
       <Head>
         <title>Saumya - About</title>
