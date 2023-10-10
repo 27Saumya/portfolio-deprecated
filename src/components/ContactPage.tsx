@@ -14,6 +14,7 @@ const ContactPage = () => {
   const [state, setState] = useState<string>();
 
   async function handleOnSubmit(e: React.SyntheticEvent<HTMLFormElement>) {
+    const target = e.currentTarget!
     e.preventDefault();
 
     const formData: Record<string, string> = {};
@@ -40,7 +41,7 @@ const ContactPage = () => {
     setState('ready');
 
     if (response.status === 200) {
-      e.target.reset()
+      target.reset()
       toast.success(`Hey ${formData.senderName}, your message was sent successfully!`, { style: { borderRadius: '10px', background: '#333', color: '#fff' } })
     } else {
       toast.error("Uh-Oh, an extremely rare error occurred while sending your message!", { style: { borderRadius: '10px', background: '#333', color: '#fff' } })
