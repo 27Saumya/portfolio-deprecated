@@ -12,8 +12,8 @@ const Contact: NextPage = () => {
       <Head>
         <title>Saumya - Contact</title>
       </Head>
-      <Toaster position='bottom-right' toastOptions={{duration: 3000}}/>
       <Navbar />
+      <Toaster position='bottom-right' toastOptions={{duration: 3000}}/>
       <ContactPage />
       <Footer />
     </div>

@@ -17,6 +17,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/NavLink.jsx", "src/components/TabButton.jsx", "src/components/AboutPage.jsx", "src/pages/api/send.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/NavLink.jsx", "src/components/TabButton.jsx", "src/components/AboutPage.jsx", "src/pages/api/send.ts"],
   "exclude": ["node_modules"]
 }
