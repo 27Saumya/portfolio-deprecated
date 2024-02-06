@@ -13,7 +13,7 @@ const About: NextPage = () => {
         <meta property="og:description" content="About yet another boring developer!" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://saumya.vercel.app/about" />
-        <meta property="og:image" content="https://saumya.vercel.app/images/saumya.png" />
+        <meta property="og:image" content="https://saumya.vercel.app/images/saumya-card.png" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navbar />
