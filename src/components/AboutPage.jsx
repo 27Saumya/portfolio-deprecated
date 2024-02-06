@@ -24,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>I am currently studying in 11th grade</li>
+        <li>I am currently studying in 12th grade</li>
         <li>Dreaming to pursue a career in Computer Science!</li>
       </ul>
     ),
