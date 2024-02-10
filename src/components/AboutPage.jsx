@@ -11,10 +11,11 @@ const TAB_DATA = [
         <li>Python</li>
         <li>Rust</li>
         <li>Javascript/Typescript</li>
+        <li>Swift</li>
         <li>Node.JS</li>
         <li>React</li>
-        <li>PostgreSQL/MySQL</li>
-        <li>MongoDBL</li>
+        <li>SQL</li>
+        <li>MongoDB</li>
         <li>Git</li>
       </ul>
     ),
