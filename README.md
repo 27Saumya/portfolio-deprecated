@@ -1,4 +1,4 @@
-# Saumya | Personal Website
+# Deprecated (move to [saumya.lol](https://saumya.lol)
 
 ## Usage
 
