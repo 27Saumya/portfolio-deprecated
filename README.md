@@ -1,4 +1,4 @@
-# Deprecated (move to [saumya.lol](https://saumya.lol)
+# Deprecated (move to [saumya.lol](https://saumya.lol))
 
 ## Usage
 
